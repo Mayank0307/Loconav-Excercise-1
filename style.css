@@ -24,23 +24,27 @@ input {
 }
 
 .button {
-  padding: 10px;
+  padding: 8px;
   text-transform: capitalize;
   background-color: #FF3264;
   border:none;
   border-radius: 20px;
   width: 45%;
   color: #ED90B2;
-  margin-left: 30%;
+  margin-left: 25%;
+  margin-top: 4%;
   font-weight: bold;
   font-size: 15px;
 }
 .logo {
   margin-left: 40%;
+  width: 16%;
 }
 .forminput {
   display: flex;
-  margin-left: 30%;
+  margin-left: 25%;
   margin-top: 20px;
   margin-bottom: 25px; 
+  color: rgb(171,171,171);
 }
+
