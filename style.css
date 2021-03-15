@@ -8,19 +8,17 @@ body {
   padding-left: 50px;
   padding-top: 100px;
   padding-bottom: 100px;
-  justify-content: center;
   background-color: white;
   border-radius: 6px 
 }
 
 input {
   display: block;
-  border-top: none;
-  border-left: none;
-  border-right: none;
+  border: none;
+  border-bottom: 2px solid ;
   text-transform: capitalize;
   border-color: #B0B4BD;
-  padding:5px 40px;
+  padding:5px 40px; 
 }
 
 .button {
@@ -37,8 +35,8 @@ input {
   font-size: 15px;
 }
 .logo {
-  margin-left: 40%;
-  width: 16%;
+  margin-left: 230px;
+  width: 90px;
 }
 .forminput {
   display: flex;
