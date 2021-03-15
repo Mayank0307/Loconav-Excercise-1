@@ -20,7 +20,7 @@ input {
   border-right: none;
   text-transform: capitalize;
   border-color: #B0B4BD;
-  padding:5px;
+  padding:5px 40px;
 }
 
 .button {
@@ -44,5 +44,3 @@ input {
   margin-top: 20px;
   margin-bottom: 25px; 
 }
-
-
