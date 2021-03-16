@@ -1,6 +1,7 @@
 body {
-  background-color: #3CA2E0;     
+  background-color: #3CA2E0;
 }
+
 .container {
   width: 40%;
   height: 70%;
@@ -9,23 +10,23 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: white;
-  border-radius: 6px 
+  border-radius: 6px
 }
 
 input {
   display: block;
   border: none;
-  border-bottom: 2px solid ;
+  border-bottom: 2px solid;
   text-transform: capitalize;
   border-color: #B0B4BD;
-  padding:5px 40px; 
+  padding: 5px 40px;
 }
 
 .button {
   padding: 8px;
   text-transform: capitalize;
   background-color: #FF3264;
-  border:none;
+  border: none;
   border-radius: 20px;
   width: 45%;
   color: #ED90B2;
@@ -34,15 +35,17 @@ input {
   font-weight: bold;
   font-size: 15px;
 }
+
 .logo {
   margin-left: 230px;
   width: 90px;
 }
+
 .forminput {
   display: flex;
   margin-left: 25%;
   margin-top: 20px;
-  margin-bottom: 25px; 
-  color: rgb(171,171,171);
+  margin-bottom: 25px;
+  color: rgb(171, 171, 171);
 }
 
