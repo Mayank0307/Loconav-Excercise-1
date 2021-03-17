@@ -1,82 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+body {
+  background-color: #3ca2e0;
+}
 
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Muli', sans-serif;
-    background-color:rgba(87, 87, 240, 0.952);
-    color: blanchedalmond;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    justify-content: center;
-  }
+.container {
+  width: 40%;
+  height: 70%;
+  margin: 100px auto;
+  padding: 100px 0 100px 50px;
+  background-color: white;
+  border-radius: 6px;
+}
 
-  .container {
-      background-color:white;
-      padding: 40px 80px;
-      border-radius: 10px;
+input {
+  display: block;
+  border: none;
+  border-bottom: 2px solid;
+  text-transform: capitalize;
+  border-color: #b0b4bd;
+  margin: 2px 7px -3px;
+  padding: 0 65px 0 16px;
+}
 
-  }
-  .container img {
-      margin-left: 80px;
-      margin-right: auto;
+.button {
+  padding: 8px;
+  text-transform: capitalize;
+  background-color: #ff3264;
+  border: none;
+  border-radius: 20px;
+  width: 45%;
+  color: white;
+  margin: 23px 0 0 150px;
+  font-weight: bold;
+  font-size: 15px;
+}
 
-  }
+.logo {
+  margin-left: 230px;
+  width: 90px;
+}
 
-  .container a {
-      text-decoration: none;
-      color: lightblue;
-  }
-
-  .btn {
-     cursor: pointer;
-     display: inline-block;
-     width: 100%;
-     background: rgb(226, 58, 58);
-     padding: 15px;
-     font-family: inherit;
-     font-size: 16px;
-     border: 0;
-     border-radius: 30px;
-  }
-
-  .btn:focus {
-      outline: 0;
-  }
-
-  .btn:active {
-     transform: scale(0.98); 
-  }
-
-  .text {
-      margin-top: 30px;
-  }
-
-  .form-control {
-      position: relative;
-      margin: 20px 0 40px;
-      width: 300px;
-  }
-  .form-control img {
-    margin: 0 -31px -41px;
-  }
-
-  .form-control input {
-    background-color: transparent;
-    border: 0;
-    border-bottom: 2px grey solid;
-    display: block;
-    width: 100%;
-    padding: 15px 0;
-    font-size: 18px;
-    color: #fff;
-  }
-
-
+.forminput {
+  display: flex;
+  margin: 20px 0 25px 157px;
+  color: rgb(171, 171, 171);
+}
